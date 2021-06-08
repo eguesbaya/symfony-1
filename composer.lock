@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd8d0f3abb1f08014e2bfb16a2ed5210",
+    "content-hash": "e822e401ae9be13172260942bfced0fe",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -2933,16 +2933,16 @@
         },
         {
             "name": "symfony/doctrine-bridge",
-            "version": "v5.2.9",
+            "version": "v5.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/doctrine-bridge.git",
-                "reference": "3d7a8138342ea146628a14372d1f1317503c6364"
+                "reference": "8911230b0861da58c42158bc8ad640f4f6658efc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/doctrine-bridge/zipball/3d7a8138342ea146628a14372d1f1317503c6364",
-                "reference": "3d7a8138342ea146628a14372d1f1317503c6364",
+                "url": "https://api.github.com/repos/symfony/doctrine-bridge/zipball/8911230b0861da58c42158bc8ad640f4f6658efc",
+                "reference": "8911230b0861da58c42158bc8ad640f4f6658efc",
                 "shasum": ""
             },
             "require": {
@@ -3026,7 +3026,7 @@
             "description": "Provides integration for Doctrine with various Symfony components",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/doctrine-bridge/tree/v5.2.9"
+                "source": "https://github.com/symfony/doctrine-bridge/tree/v5.2.10"
             },
             "funding": [
                 {
@@ -3042,7 +3042,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-17T19:35:40+00:00"
+            "time": "2021-05-26T12:52:38+00:00"
         },
         {
             "name": "symfony/dotenv",
