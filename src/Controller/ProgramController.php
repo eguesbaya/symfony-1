@@ -73,7 +73,7 @@ class ProgramController extends AbstractController
      */
     public function edit(Request $request, Program $program): Response
     {
-        $form = $this->createForm(Program1Type::class, $program);
+        $form = $this->createForm(ProgramType::class, $program);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
