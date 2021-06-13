@@ -3,7 +3,7 @@
 {% block title %}Season{% endblock %}
 
 {% block body %}
-    <h1>Season</h1>
+    <h1>Season {{season.number}}</h1>
 
     <table class="table">
         <tbody>
@@ -22,6 +22,18 @@
             <tr>
                 <th>Description</th>
                 <td>{{ season.description }}</td>
+            </tr>
+            <tr>
+                <th>Episodes</th>
+                <td>
+                    <ul>
+                        {% for episode in season.episodes %}
+                            <li><a href="/episode/{{episode.id}}">Episode {{episode.number}}: {{episode.title}}</a></li>
+                        {% else %}
+                            Aucun épisode pour cette saison
+                        {% endfor %}
+                    </ul>
+                </td>
             </tr>
         </tbody>
     </table>

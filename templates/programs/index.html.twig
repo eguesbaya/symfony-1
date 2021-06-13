@@ -25,6 +25,13 @@
                                 Aucun acteur pour cette série
                             {% endfor %}
                     </li>
+                    <li class="list-group-item"><strong>Saisons</strong> :
+                            {% for season in program.seasons %}
+                                <a href="/season/{{season.id}}">Saison {{ season.number }}</a>
+                            {% else %}
+                                Aucune saison pour cette série
+                            {% endfor %}
+                    </li>
                     <div class="card-footer">
                         <a href="{{ path("program_show", { id: program.id }) }}" class="card-link">Voir la fiche</a>
                     </div>
