@@ -3,3 +3,4 @@
 14- Validation: https://www.loom.com/share/b0ddce55592748288085e62ba6cd4fc7
 17- Fixtures avancées: https://www.loom.com/share/5eca0dcbb1334865bfe8f9de22b2684c
 18- Services: https://www.loom.com/share/2c5bca19b01e4f7a9ec8b468bfd4dfbc
+19- Emails: https://www.loom.com/share/5bf5b3780e6c423a80e0a3635bd35540
